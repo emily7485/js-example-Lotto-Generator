@@ -5,7 +5,6 @@ Generate 6 random numbers.
 ## Screenshot
 
 [See the result](https://emily7485.github.io/js-example-LottoGenerator/lotto.html)
-[Check my code](https://github.com/emily7485/js-example-LottoGenerator)
 
 - This is a original page
   
