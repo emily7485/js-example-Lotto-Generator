@@ -6,14 +6,14 @@ Generate 6 random numbers.
 
 [See the result](https://emily7485.github.io/js-example-LottoGenerator/lotto.html)
 
-- This is a original page
+- see the result
   
-![real](https://github.com/emily7485/test.github.io/blob/master/images/real.PNG)
+![real](.vs/result.PNG)
 
-- and this is a copy that i made
-
-![copy](https://github.com/emily7485/test.github.io/blob/master/images/copy.PNG)
-
+## How to...
+1. Insert a number one by one
+2. Click each ball
+3. Check a results!  
 
 ## Built With
 - HTML 5

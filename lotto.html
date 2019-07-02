@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="lotto.js"></script>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="lotto.js"></script>
 
 </head>
+
 <body>
 	<h2>Push a ball</h2>
 
 	<div>
-		<input type="button" class="button" id="first" value="1"
-			onclick="first();"> <input type="button" class="button"
-			id="second" value="2" onclick="second();"> <input
-			type="button" class="button" id="third" value="3" onclick="third();">
-		<input type="button" class="button" id="fourth" value="4"
-			onclick="fourth();"> <input type="button" class="button"
-			id="fifth" value="5" onclick="fifth();"> <input type="button"
-			class="button" id="sixth" value="6" onclick="sixth();"> <input
-			type="button" class="button" id="bonus" value="♥" onclick="bonus();">
+		<input type="button" class="button" id="first" value="1" onclick="first();" /> <input type="button"
+			class="button" id="second" value="2" onclick="second();" /> <input type="button" class="button" id="third"
+			value="3" onclick="third();" />
+		<input type="button" class="button" id="fourth" value="4" onclick="fourth();" /> <input type="button"
+			class="button" id="fifth" value="5" onclick="fifth();" /> <input type="button" class="button" id="sixth"
+			value="6" onclick="sixth();" /> <input type="button" class="button" id="bonus" value="♥"
+			onclick="bonus();" />
 	</div>
 	<div>
 		<p>
-			my lotto numbers: <input id="result" type="text"
-				style="width: 300px; height: 30px; font-size: 20px;">
+			my lotto numbers: <input id="result" type="text" style="width: 300px; height: 30px; font-size: 20px;">
 		</p>
 		<p>
-			winning numbers : <input id="display" type="text"
-				style="width: 300px; height: 30px; font-size: 20px;">
+			winning numbers : <input id="display" type="text" style="width: 300px; height: 30px; font-size: 20px;">
 		</p>
-		<input id="last" type="button" value="결과" onclick="isEqual();"
-			style="width: 90px; height: 60p;">
+		<input id="last" type="button" value="result" onclick="isEqual();" style="width: 90px; height: 60p;">
 	</div>
-	
+
 	<script type="text/javascript">
-	start();
+		start();
 	</script>
 </body>
+
 </html>
