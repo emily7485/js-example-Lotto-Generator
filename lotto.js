@@ -1,7 +1,7 @@
 var myArr = new Array(6);
 for (var i = 0; i < 6; i++) {
-	var input = prompt("내가 선택한 번호: " + myArr.join(' ')
-			+ "\n로또 번호를 입력해 주세요(1~45)");
+	var input = prompt("My lotto numbers: " + myArr.join(' ')
+			+ "\nInsert a number(1~45)");
 	if (input > 45 || input < 1) {
 		alert("Again, Out of range");
 		i--;
@@ -9,7 +9,7 @@ for (var i = 0; i < 6; i++) {
 		myArr[i] = input;
 		for (var j = 0; j < i; j++) {
 			if (myArr[i] == myArr[j]) {
-				alert("숫자가 중복됩니다. 다시 입력해주세요")
+				alert("Again, Unable to add a duplicate num.")
 				myArr = myArr.slice(0, i);
 				i--;
 			}
@@ -22,7 +22,7 @@ for (var i = 0; i < 6; i++) {
 
 /* 테이블 생성 */
 
-document.write("<h2>로또는 해로워요<h2>");
+document.write("<h2>Lotto Generator<h2>");
 document.write("<table>");
 var num = 1;
 for (var i = 0; i < 7; i++) {
@@ -95,7 +95,7 @@ function bonus() {
 function display() {
 	var carry = arr.slice(0, 6)
 	document.getElementById('display').value = carry.join(' ') + " + " + arr[6]
-			+ "(보너스)";
+			+ "(BONUS)";
 	document.getElementById('display').readOnly = true;
 }
 function isEqual() {
@@ -107,5 +107,5 @@ function isEqual() {
 			}
 		}
 	}
-	alert(cnt + "개의 숫자가 같습니다.");
+	alert("Results(count of matching number) : " + cnt);
 }
