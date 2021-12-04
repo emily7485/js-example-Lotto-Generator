@@ -4,9 +4,8 @@ Generate 6 random numbers.
 
 ## Screenshot
 
-[See the result](https://y0ungchoi.github.io/js-example-LottoGenerator/lotto.html)
+- [See the result](https://y0ungchoi.github.io/js-example-LottoGenerator/lotto.html)
 
-- see the result
   
 ![real](.vs/result.PNG)
 
@@ -23,7 +22,7 @@ Generate 6 random numbers.
 
 ## Contributing
 
-Please read [CONTRIBUTING](https://gist.github.com/emily7485/be9662f632063012c84f394ab0ff423b) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING](https://gist.github.com/y0ungchoi/be9662f632063012c84f394ab0ff423b) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## License
